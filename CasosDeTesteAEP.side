@@ -1,0 +1,188 @@
+{
+  "id": "211612e2-9cfe-42bb-9823-53e24f3c51b3",
+  "version": "2.0",
+  "name": "CasosDeTesteAEP",
+  "url": "https://buildexpress.vercel.app",
+  "tests": [{
+    "id": "ad1c4691-fa57-48eb-9cf4-33f7e6928af1",
+    "name": "Caso_De_Teste_AEP",
+    "commands": [{
+      "id": "333c037f-c255-4b12-ba60-a3631a297ba8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3be9a80d-5340-416e-a027-33125ee40fbb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c970e51-cec9-401c-97d3-42bcc7c57e8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-papXJ li:nth-child(2) > button",
+      "targets": [
+        ["css=.sc-papXJ li:nth-child(2) > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section/section[2]/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8068b8d8-054b-476a-bc7c-6c09b5d9a93d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-active:nth-child(2) > button",
+      "targets": [
+        ["css=.slick-active:nth-child(2) > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section/section[2]/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99338d5c-0a87-438d-9141-ec4c143fa01a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-papXJ li:nth-child(1) > button",
+      "targets": [
+        ["css=.sc-papXJ li:nth-child(1) > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section/section[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97bc596b-ea68-4223-bb67-8bd60cf21957",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-fLlhyt li:nth-child(2) > button",
+      "targets": [
+        ["css=.sc-fLlhyt li:nth-child(2) > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section/section[3]/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//section[3]/div/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11ad80cf-b56d-455f-80bc-0b817152beda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-fLlhyt li:nth-child(1) > button",
+      "targets": [
+        ["css=.sc-fLlhyt li:nth-child(1) > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section/section[3]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//section[3]/div/ul/li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41413cd1-f24b-4642-ae03-26fc4f67c44f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-evZas li:nth-child(2) > button",
+      "targets": [
+        ["css=.sc-evZas li:nth-child(2) > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section/section[4]/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//section[4]/div/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e56045a1-fa1e-44bb-9b3c-143720690a35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jSMfEi:nth-child(1) > svg",
+      "targets": [
+        ["css=.sc-jSMfEi:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "31cf7147-6316-4215-9de7-e7eb615ea62e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jSMfEi:nth-child(2)",
+      "targets": [
+        ["css=.sc-jSMfEi:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/section[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6c55fe-287f-4565-bac1-045d8a19fd04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jSMfEi:nth-child(3) > svg",
+      "targets": [
+        ["css=.sc-jSMfEi:nth-child(3) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ff8df7-7931-4da4-b698-1aafecbeede1",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.App",
+      "targets": [
+        ["css=.App", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "586,397"
+    }, {
+      "id": "8d621e0a-6388-4366-8c92-822b8526d0db",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.App",
+      "targets": [
+        ["css=.App", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "586,397"
+    }, {
+      "id": "d3ee0097-bfc4-4db1-b939-eab1dd33dadf",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.App",
+      "targets": [
+        ["css=.App", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "586,397"
+    }, {
+      "id": "13f0b85d-0c76-4fc2-894a-fc919baaf5a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.App",
+      "targets": [
+        ["css=.App", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4fe0019-ec2a-41fe-b560-dc0edd611c69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bczRLJ",
+      "targets": [
+        ["css=.sc-bczRLJ", "css:finder"],
+        ["xpath=//div[@id='root']/div/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "70ff76be-8390-4f5f-a8fe-638fb44cdbed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ad1c4691-fa57-48eb-9cf4-33f7e6928af1"]
+  }],
+  "urls": ["https://buildexpress.vercel.app/"],
+  "plugins": []
+}
